@@ -5,6 +5,7 @@ import { View } from 'react-native';
 import store from './src/store/store';
 import Counter from './src/components/Counter/Counter';
 import SignUp from './src/components/SignUp/SignUp';
+import Puppy from './src/components/Image/Image';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <View style={{margin:10}}>
           <Counter />
         </View>
+        <Puppy />
       </View>
     </Provider>
   );
